@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  /* background-color: #cda6f5;
+  /* color: white; */
+  /* padding: 40px;
+  font-family: Arial;
+  text-align: center;  */
+}
+
+.login-input{
+  width: 50%;
+  padding: 7px 20px;
+  margin: 8px 0;
+  box-sizing: border-box; 
+  border-radius: 4px;
+  border: 2px solid #ccc;
+}
+
+.border{
+  background-color: lightgrey;
+    width: 700px;
+    padding: 25px;
+    margin: 25px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.content {
+  background: url('..//public/image/hdd.png');
+  background-size: cover;
+  width: auto; 
+  height:1000px;
+  font-family: supermarket;
+  text-align: center;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 120px;
+}
+.top-container {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
